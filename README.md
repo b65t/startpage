@@ -3,6 +3,6 @@ just a stupid start page i made
 
 you can steal it :)
 
-![image](https://github.com/iimmmii/islammy-startpage/assets/171502258/f979dab4-ab31-476c-90c5-40e08ae70968)
+![image](https://github.com/iimmmii/islammy-startpage/assets/171502258/6ed6888b-6ba2-4f99-a3d3-ad9feb849900)
 
 https://iimmmii.github.io/islammy-startpage/
