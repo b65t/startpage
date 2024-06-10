@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     var image = document.getElementById('myImage');
-    image.src = "image_proxy.jpg";
+    image.src = "image.jpg";
     
     var clockElement = document.getElementById('clock');
     
