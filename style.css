@@ -1,7 +1,9 @@
+@import"https://fonts.cdnfonts.com/css/cascadia-code";
+
 body { 
     color: white; 
-    background-color: #2e333f; 
-    font-family: Arial, sans-serif; 
+    background-color: #1e1e2e; 
+    font-family: Cascadia Code; 
     display: flex; 
     height: 100vh;
     margin: 0;
@@ -16,50 +18,155 @@ body {
     max-width: 300px; 
     max-height: auto;
     object-fit: cover;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-}
-.welcome-container { 
-    width: 40%; 
-    text-align: center; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    padding-left: 5%;
-    margin-right: 75px;
+    /*box-shadow: 5px 2px 5px 2px #cdd6f4;*/
+    border-radius: 20px;
+    margin-left: 4%;
 }
 .welcome-message { 
+    position: absolute;
+    justify-content: center;
+    align-items: center;
     font-size: 36px; 
-    margin-bottom: 35px;
-    text-align: left;
-    margin-right: 24px;
-    color: #63729d;
+    color: #f38ba8;
+    left: 590px;
+    top: 190px;
 }
-.links-list { 
-    list-style-type: none; 
-    padding: 0; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-bottom: 20px;
+.emails {
+    color: #f38ba8;
+    position: absolute;
+    left: 610px;
+    top: 270px;
+    justify-content: center;
+    align-items: center; 
 }
-.links-list li { 
-    width: 45%; 
-    margin: 5px;
+.wiki {
+    color: #f38ba8;
+    position: absolute;
+    left: 720px;
+    top: 270px;
+    justify-content: center;
+    align-items: center; 
 }
-.links-list li a { 
-    color: #D8DEE9; 
+.social {
+    color: #f38ba8;
+    position: absolute;
+    left: 810px;
+    top: 270px;
+    justify-content: center;
+    align-items: center; 
+}
+.media {
+    color: #f38ba8;
+    position: absolute;
+    left: 910px;
+    top: 270px;
+    justify-content: center;
+    align-items: center; 
+}
+.anime {
+    color: #f38ba8;
+    position: absolute;
+    left: 1010px;
+    top: 270px;
+    justify-content: center;
+    align-items: center; 
+}
+.emails-link { 
+    list-style-type: none;
+    position: absolute;
+    top: 280px;
+    left: 550px;
+    size: 20%;
+    justify-content: center;
+    align-items: center; 
+}
+.emails-link li { 
+    margin-top: 5px;
+}
+.emails-link li a { 
+    color: #cdd6f4; 
     text-decoration: none; 
     display: block;
-    padding: 10px;
-    background-color: #4a505f;
-    border-radius: 5px;
+    font-size: 15px;
+}
+.wiki-link { 
+    list-style-type: none;
+    position: absolute;
+    top: 280px;
+    left: 660px;
+    size: 20%;
+    justify-content: center;
+    align-items: center; 
+}
+.wiki-link li { 
+    margin-top: 5px;
+}
+.wiki-link li a { 
+    color: #cdd6f4; 
+    text-decoration: none; 
+    display: block;
+    font-size: 15px;
+}
+.social-link { 
+    list-style-type: none;
+    position: absolute;
+    top: 280px;
+    left: 770px;
+    size: 20%;
+    justify-content: center;
+    align-items: center; 
+}
+.social-link li { 
+    margin-top: 5px;
+}
+.social-link li a { 
+    color: #cdd6f4; 
+    text-decoration: none; 
+    display: block;
+    font-size: 15px;
+}
+.media-link { 
+    list-style-type: none;
+    position: absolute;
+    top: 280px;
+    left: 870px;
+    justify-content: center;
+    align-items: center;
+}
+.media-link li { 
+    margin-top: 5px;
+}
+.media-link li a { 
+    color: #cdd6f4; 
+    text-decoration: none; 
+    display: block;
+    font-size: 15px;
+}
+.anime-link {
+    list-style-type: none;
+    position: absolute;
+    top: 280px;
+    left: 980px;
+    justify-content: center;
+    align-items: center; 
+}
+.anime-link li { 
+    margin-top: 5px;
+}
+.anime-link li a { 
+    color: #cdd6f4; 
+    text-decoration: none; 
+    display: block;
+    font-size: 15px;
 }
 .search-container { 
-    text-align: center;
-    margin-top: 5px;
-    width: 100%
+    width: 100%;
+    position: absolute;
+    top: 380px;
+    left: 600px;
+    size: 20%;
+    justify-content: center;
+    align-items: center; 
 }
 .search-bar { 
     width: 425px;
@@ -69,13 +176,24 @@ body {
     border: 2px solid #2e333f;
     color: white; 
     border-radius: 10px;
-    margin-right: 24px;
 }
 #clock {
     position: absolute;
-    bottom: 90px;
-    left: 75%;
+    top: 195px;
+    left: 74%;
     transform: translateX(-50%);
     font-size: 32px;
-    color: #63729d;
+    color: #f38ba8;
+}
+.square {
+    background-color: #17191e;
+    width: 750px;
+    height: 300px;
+    position: absolute;
+    left: 390px;
+    top: 160px;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 15px;
+    z-index: -1
 }
