@@ -18,8 +18,8 @@ body {
     max-width: 300px; 
     max-height: auto;
     object-fit: cover;
-    /*box-shadow: 5px 2px 5px 2px #cdd6f4;*/
-    border-radius: 20px;
+    box-shadow: 3px 0 7px #313244;
+    border-radius: 20px 0px 0px 20px;
     margin-left: 4%;
 }
 .welcome-message { 
